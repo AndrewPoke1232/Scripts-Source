@@ -1,0 +1,945 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local AndrewHubX = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Line = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local IYFE = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local IF = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UNESP = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local JB = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local Exit = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local NetL = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local Minimized = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local DH = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local ESP = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local SHK = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local BPB = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local Next_Page = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local FLY = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local ShortGui = Instance.new("TextLabel")
+local Exit_2 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
+local Unminimized = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Main2 = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local Line_2 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local NESP = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local TextLabel_12 = Instance.new("TextLabel")
+local Exit_3 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Minimized_2 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local Next_Back_Page = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local ShortGui2 = Instance.new("TextLabel")
+local Exit_4 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
+local Unminimized_2 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+
+--Properties:
+
+AndrewHubX.Name = "Andrew Hub X"
+AndrewHubX.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+AndrewHubX.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = AndrewHubX
+Main.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Main.Position = UDim2.new(0.0065005417, 0, 0.0120724346, 0)
+Main.Size = UDim2.new(0, 911, 0, 485)
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = Main
+
+Line.Name = "Line"
+Line.Parent = Main
+Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line.BorderSizePixel = 0
+Line.Position = UDim2.new(0.00768386386, 0, 0.12371134, 0)
+Line.Size = UDim2.new(0, 897, 0, 1)
+Line.ZIndex = 99
+Line.Font = Enum.Font.SourceSans
+Line.Text = ""
+Line.TextColor3 = Color3.fromRGB(0, 0, 0)
+Line.TextSize = 14.000
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.316136122, 0, 0.012371134, 0)
+TextLabel.Size = UDim2.new(0, 335, 0, 48)
+TextLabel.ZIndex = 99
+TextLabel.Font = Enum.Font.Code
+TextLabel.Text = "Andrew Hub X"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 35.000
+TextLabel.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(196, 58, 255)), ColorSequenceKeypoint.new(0.10, Color3.fromRGB(192, 62, 255)), ColorSequenceKeypoint.new(0.13, Color3.fromRGB(153, 107, 255)), ColorSequenceKeypoint.new(0.21, Color3.fromRGB(197, 63, 255)), ColorSequenceKeypoint.new(0.38, Color3.fromRGB(199, 70, 255)), ColorSequenceKeypoint.new(0.63, Color3.fromRGB(137, 121, 255)), ColorSequenceKeypoint.new(0.68, Color3.fromRGB(162, 100, 255)), ColorSequenceKeypoint.new(0.85, Color3.fromRGB(181, 131, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(141, 117, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = TextLabel
+
+IYFE.Name = "IYFE"
+IYFE.Parent = Main
+IYFE.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+IYFE.Position = UDim2.new(0.0548847429, 0, 0.24742268, 0)
+IYFE.Size = UDim2.new(0, 200, 0, 50)
+IYFE.ZIndex = 999
+IYFE.Font = Enum.Font.Unknown
+IYFE.Text = ""
+IYFE.TextColor3 = Color3.fromRGB(134, 47, 255)
+IYFE.TextSize = 14.000
+
+UICorner_2.Parent = IYFE
+
+TextLabel_2.Parent = IYFE
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.ZIndex = 9999
+TextLabel_2.Font = Enum.Font.Unknown
+TextLabel_2.Text = "Infinite Yield FE"
+TextLabel_2.TextColor3 = Color3.fromRGB(134, 47, 255)
+TextLabel_2.TextSize = 14.000
+
+IF.Name = "IF"
+IF.Parent = Main
+IF.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+IF.Position = UDim2.new(0.389681637, 0, 0.24742268, 0)
+IF.Size = UDim2.new(0, 200, 0, 50)
+IF.ZIndex = 999
+IF.Font = Enum.Font.Unknown
+IF.Text = ""
+IF.TextColor3 = Color3.fromRGB(134, 47, 255)
+IF.TextSize = 14.000
+
+UICorner_3.Parent = IF
+
+TextLabel_3.Parent = IF
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.ZIndex = 9999
+TextLabel_3.Font = Enum.Font.Unknown
+TextLabel_3.Text = "Invisible Fling"
+TextLabel_3.TextColor3 = Color3.fromRGB(134, 47, 255)
+TextLabel_3.TextSize = 14.000
+
+UNESP.Name = "UNESP"
+UNESP.Parent = Main
+UNESP.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+UNESP.Position = UDim2.new(0.725576282, 0, 0.24742268, 0)
+UNESP.Size = UDim2.new(0, 200, 0, 50)
+UNESP.ZIndex = 999
+UNESP.Font = Enum.Font.Unknown
+UNESP.Text = ""
+UNESP.TextColor3 = Color3.fromRGB(134, 47, 255)
+UNESP.TextSize = 14.000
+
+UICorner_4.Parent = UNESP
+
+TextLabel_4.Parent = UNESP
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.ZIndex = 9999
+TextLabel_4.Font = Enum.Font.Unknown
+TextLabel_4.Text = "Unnamed Esp"
+TextLabel_4.TextColor3 = Color3.fromRGB(134, 47, 255)
+TextLabel_4.TextSize = 14.000
+
+JB.Name = "JB"
+JB.Parent = Main
+JB.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+JB.Position = UDim2.new(0.0548847318, 0, 0.447422683, 0)
+JB.Size = UDim2.new(0, 200, 0, 50)
+JB.ZIndex = 999
+JB.Font = Enum.Font.Unknown
+JB.Text = ""
+JB.TextColor3 = Color3.fromRGB(134, 47, 255)
+JB.TextSize = 14.000
+
+UICorner_5.Parent = JB
+
+TextLabel_5.Parent = JB
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_5.ZIndex = 9999
+TextLabel_5.Font = Enum.Font.Unknown
+TextLabel_5.Text = "Jailbreak"
+TextLabel_5.TextColor3 = Color3.fromRGB(134, 47, 255)
+TextLabel_5.TextSize = 14.000
+
+Exit.Name = "Exit"
+Exit.Parent = Main
+Exit.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Exit.Position = UDim2.new(0.937431395, 0, 0.012371134, 0)
+Exit.Size = UDim2.new(0, 50, 0, 50)
+Exit.ZIndex = 999
+Exit.Font = Enum.Font.PermanentMarker
+Exit.Text = "X"
+Exit.TextColor3 = Color3.fromRGB(134, 47, 255)
+Exit.TextScaled = true
+Exit.TextSize = 14.000
+Exit.TextWrapped = true
+
+UICorner_6.Parent = Exit
+
+NetL.Name = "NetL"
+NetL.Parent = Main
+NetL.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+NetL.Position = UDim2.new(0.389681667, 0, 0.449484527, 0)
+NetL.Size = UDim2.new(0, 200, 0, 50)
+NetL.ZIndex = 999
+NetL.Font = Enum.Font.Unknown
+NetL.Text = ""
+NetL.TextColor3 = Color3.fromRGB(134, 47, 255)
+NetL.TextSize = 10.000
+
+UICorner_7.Parent = NetL
+
+TextLabel_6.Parent = NetL
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_6.ZIndex = 9999
+TextLabel_6.Font = Enum.Font.Unknown
+TextLabel_6.Text = "Netless Bypass (RELOAD GUI)"
+TextLabel_6.TextColor3 = Color3.fromRGB(134, 47, 255)
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+Minimized.Name = "Minimized"
+Minimized.Parent = Main
+Minimized.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Minimized.Position = UDim2.new(0.869374275, 0, 0.012371134, 0)
+Minimized.Size = UDim2.new(0, 50, 0, 50)
+Minimized.ZIndex = 999
+Minimized.Font = Enum.Font.PermanentMarker
+Minimized.Text = "-"
+Minimized.TextColor3 = Color3.fromRGB(134, 47, 255)
+Minimized.TextScaled = true
+Minimized.TextSize = 14.000
+Minimized.TextWrapped = true
+
+UICorner_8.Parent = Minimized
+
+DH.Name = "DH"
+DH.Parent = Main
+DH.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+DH.Position = UDim2.new(0.725576282, 0, 0.449484527, 0)
+DH.Size = UDim2.new(0, 200, 0, 50)
+DH.ZIndex = 999
+DH.Font = Enum.Font.Unknown
+DH.Text = ""
+DH.TextColor3 = Color3.fromRGB(134, 47, 255)
+DH.TextSize = 10.000
+
+UICorner_9.Parent = DH
+
+TextLabel_7.Parent = DH
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_7.ZIndex = 9999
+TextLabel_7.Font = Enum.Font.Unknown
+TextLabel_7.Text = "Dark Hub (Key)"
+TextLabel_7.TextColor3 = Color3.fromRGB(134, 47, 255)
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+ESP.Name = "ESP"
+ESP.Parent = Main
+ESP.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+ESP.Position = UDim2.new(0.725576282, 0, 0.647422671, 0)
+ESP.Size = UDim2.new(0, 200, 0, 50)
+ESP.ZIndex = 999
+ESP.Font = Enum.Font.Unknown
+ESP.Text = ""
+ESP.TextColor3 = Color3.fromRGB(134, 47, 255)
+ESP.TextSize = 10.000
+
+UICorner_10.Parent = ESP
+
+TextLabel_8.Parent = ESP
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_8.ZIndex = 9999
+TextLabel_8.Font = Enum.Font.Unknown
+TextLabel_8.Text = "Esp"
+TextLabel_8.TextColor3 = Color3.fromRGB(134, 47, 255)
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+SHK.Name = "SHK"
+SHK.Parent = Main
+SHK.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+SHK.Position = UDim2.new(0.0548847318, 0, 0.647422671, 0)
+SHK.Size = UDim2.new(0, 200, 0, 50)
+SHK.ZIndex = 999
+SHK.Font = Enum.Font.Unknown
+SHK.Text = ""
+SHK.TextColor3 = Color3.fromRGB(134, 47, 255)
+SHK.TextSize = 10.000
+
+UICorner_11.Parent = SHK
+
+TextLabel_9.Parent = SHK
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_9.ZIndex = 9999
+TextLabel_9.Font = Enum.Font.Unknown
+TextLabel_9.Text = "Sorky Hub (Kat)"
+TextLabel_9.TextColor3 = Color3.fromRGB(134, 47, 255)
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+BPB.Name = "BPB"
+BPB.Parent = Main
+BPB.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+BPB.Position = UDim2.new(0.389681667, 0, 0.647422671, 0)
+BPB.Size = UDim2.new(0, 200, 0, 50)
+BPB.ZIndex = 999
+BPB.Font = Enum.Font.Unknown
+BPB.Text = ""
+BPB.TextColor3 = Color3.fromRGB(134, 47, 255)
+BPB.TextSize = 10.000
+
+UICorner_12.Parent = BPB
+
+TextLabel_10.Parent = BPB
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(-0.00499999523, 0, 0, 0)
+TextLabel_10.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_10.ZIndex = 9999
+TextLabel_10.Font = Enum.Font.Unknown
+TextLabel_10.Text = "Big Paintball "
+TextLabel_10.TextColor3 = Color3.fromRGB(134, 47, 255)
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+Next_Page.Name = "Next_Page"
+Next_Page.Parent = Main
+Next_Page.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Next_Page.Position = UDim2.new(0.930845201, 0, 0.865979373, 0)
+Next_Page.Size = UDim2.new(0, 50, 0, 50)
+Next_Page.Font = Enum.Font.Unknown
+Next_Page.Text = ">"
+Next_Page.TextColor3 = Color3.fromRGB(134, 47, 255)
+Next_Page.TextScaled = true
+Next_Page.TextSize = 14.000
+Next_Page.TextWrapped = true
+
+UICorner_13.Parent = Next_Page
+
+FLY.Name = "FLY"
+FLY.Parent = Main
+FLY.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+FLY.BorderSizePixel = 0
+FLY.Position = UDim2.new(0.0548847429, 0, 0.824742258, 0)
+FLY.Size = UDim2.new(0.814489424, 0, 0.103092782, 0)
+FLY.ZIndex = 999
+FLY.Font = Enum.Font.Unknown
+FLY.Text = "Fly"
+FLY.TextColor3 = Color3.fromRGB(134, 47, 255)
+FLY.TextScaled = true
+FLY.TextSize = 10.000
+FLY.TextWrapped = true
+
+UICorner_14.Parent = FLY
+
+ShortGui.Name = "ShortGui"
+ShortGui.Parent = AndrewHubX
+ShortGui.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+ShortGui.Position = UDim2.new(0.401189864, 0, 0.565615535, 0)
+ShortGui.Size = UDim2.new(0, 179, 0, 60)
+ShortGui.Visible = false
+ShortGui.ZIndex = 99
+ShortGui.Font = Enum.Font.SourceSans
+ShortGui.Text = ""
+ShortGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+ShortGui.TextSize = 14.000
+
+Exit_2.Name = "Exit"
+Exit_2.Parent = ShortGui
+Exit_2.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Exit_2.Position = UDim2.new(0.685146987, 0, 0.0789168924, 0)
+Exit_2.Size = UDim2.new(0, 50, 0, 50)
+Exit_2.ZIndex = 999
+Exit_2.Font = Enum.Font.PermanentMarker
+Exit_2.Text = "X"
+Exit_2.TextColor3 = Color3.fromRGB(134, 47, 255)
+Exit_2.TextScaled = true
+Exit_2.TextSize = 14.000
+Exit_2.TextWrapped = true
+
+UICorner_15.Parent = Exit_2
+
+UICorner_16.Parent = ShortGui
+
+Unminimized.Name = "Unminimized"
+Unminimized.Parent = ShortGui
+Unminimized.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Unminimized.Position = UDim2.new(0.0260485839, 0, 0.0825030059, 0)
+Unminimized.Size = UDim2.new(0, 50, 0, 50)
+Unminimized.ZIndex = 999
+Unminimized.Font = Enum.Font.PermanentMarker
+Unminimized.Text = "+"
+Unminimized.TextColor3 = Color3.fromRGB(134, 47, 255)
+Unminimized.TextScaled = true
+Unminimized.TextSize = 14.000
+Unminimized.TextWrapped = true
+
+UICorner_17.Parent = Unminimized
+
+Main2.Name = "Main2"
+Main2.Parent = AndrewHubX
+Main2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Main2.Position = UDim2.new(0.00700000022, 0, 0.0120000001, 0)
+Main2.Size = UDim2.new(0, 911, 0, 485)
+Main2.Visible = false
+
+UICorner_18.CornerRadius = UDim.new(0, 10)
+UICorner_18.Parent = Main2
+
+Line_2.Name = "Line"
+Line_2.Parent = Main2
+Line_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_2.BorderSizePixel = 0
+Line_2.Position = UDim2.new(0.00768386386, 0, 0.12371134, 0)
+Line_2.Size = UDim2.new(0, 897, 0, 1)
+Line_2.ZIndex = 99
+Line_2.Font = Enum.Font.SourceSans
+Line_2.Text = ""
+Line_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Line_2.TextSize = 14.000
+
+TextLabel_11.Parent = Main2
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.316136122, 0, 0.012371134, 0)
+TextLabel_11.Size = UDim2.new(0, 335, 0, 48)
+TextLabel_11.ZIndex = 99
+TextLabel_11.Font = Enum.Font.Code
+TextLabel_11.Text = "Andrew Hub X"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 35.000
+TextLabel_11.TextWrapped = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(196, 58, 255)), ColorSequenceKeypoint.new(0.10, Color3.fromRGB(192, 62, 255)), ColorSequenceKeypoint.new(0.13, Color3.fromRGB(153, 107, 255)), ColorSequenceKeypoint.new(0.21, Color3.fromRGB(197, 63, 255)), ColorSequenceKeypoint.new(0.38, Color3.fromRGB(199, 70, 255)), ColorSequenceKeypoint.new(0.63, Color3.fromRGB(137, 121, 255)), ColorSequenceKeypoint.new(0.68, Color3.fromRGB(162, 100, 255)), ColorSequenceKeypoint.new(0.85, Color3.fromRGB(181, 131, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(141, 117, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_2.Parent = TextLabel_11
+
+NESP.Name = "NESP"
+NESP.Parent = Main2
+NESP.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+NESP.Position = UDim2.new(0.0548847429, 0, 0.24742268, 0)
+NESP.Size = UDim2.new(0, 200, 0, 50)
+NESP.ZIndex = 999
+NESP.Font = Enum.Font.Unknown
+NESP.Text = ""
+NESP.TextColor3 = Color3.fromRGB(134, 47, 255)
+NESP.TextSize = 14.000
+
+UICorner_19.Parent = NESP
+
+TextLabel_12.Parent = NESP
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_12.ZIndex = 9999
+TextLabel_12.Font = Enum.Font.Unknown
+TextLabel_12.Text = "Name Esp"
+TextLabel_12.TextColor3 = Color3.fromRGB(134, 47, 255)
+TextLabel_12.TextSize = 14.000
+
+Exit_3.Name = "Exit"
+Exit_3.Parent = Main2
+Exit_3.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Exit_3.Position = UDim2.new(0.937431395, 0, 0.012371134, 0)
+Exit_3.Size = UDim2.new(0, 50, 0, 50)
+Exit_3.ZIndex = 999
+Exit_3.Font = Enum.Font.PermanentMarker
+Exit_3.Text = "X"
+Exit_3.TextColor3 = Color3.fromRGB(134, 47, 255)
+Exit_3.TextScaled = true
+Exit_3.TextSize = 14.000
+Exit_3.TextWrapped = true
+
+UICorner_20.Parent = Exit_3
+
+Minimized_2.Name = "Minimized"
+Minimized_2.Parent = Main2
+Minimized_2.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Minimized_2.Position = UDim2.new(0.869374275, 0, 0.012371134, 0)
+Minimized_2.Size = UDim2.new(0, 50, 0, 50)
+Minimized_2.ZIndex = 999
+Minimized_2.Font = Enum.Font.PermanentMarker
+Minimized_2.Text = "-"
+Minimized_2.TextColor3 = Color3.fromRGB(134, 47, 255)
+Minimized_2.TextScaled = true
+Minimized_2.TextSize = 14.000
+Minimized_2.TextWrapped = true
+
+UICorner_21.Parent = Minimized_2
+
+Next_Back_Page.Name = "Next_Back_Page"
+Next_Back_Page.Parent = Main2
+Next_Back_Page.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Next_Back_Page.Position = UDim2.new(0.0142700076, 0, 0.86391753, 0)
+Next_Back_Page.Size = UDim2.new(0, 50, 0, 50)
+Next_Back_Page.Font = Enum.Font.Unknown
+Next_Back_Page.Text = "<"
+Next_Back_Page.TextColor3 = Color3.fromRGB(134, 47, 255)
+Next_Back_Page.TextScaled = true
+Next_Back_Page.TextSize = 14.000
+Next_Back_Page.TextWrapped = true
+
+UICorner_22.Parent = Next_Back_Page
+
+ShortGui2.Name = "ShortGui2"
+ShortGui2.Parent = AndrewHubX
+ShortGui2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+ShortGui2.Position = UDim2.new(0.400999993, 0, 0.565999985, 0)
+ShortGui2.Size = UDim2.new(0, 179, 0, 60)
+ShortGui2.Visible = false
+ShortGui2.ZIndex = 99
+ShortGui2.Font = Enum.Font.SourceSans
+ShortGui2.Text = ""
+ShortGui2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ShortGui2.TextSize = 14.000
+
+Exit_4.Name = "Exit"
+Exit_4.Parent = ShortGui2
+Exit_4.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Exit_4.Position = UDim2.new(0.685146987, 0, 0.0789168924, 0)
+Exit_4.Size = UDim2.new(0, 50, 0, 50)
+Exit_4.ZIndex = 999
+Exit_4.Font = Enum.Font.PermanentMarker
+Exit_4.Text = "X"
+Exit_4.TextColor3 = Color3.fromRGB(134, 47, 255)
+Exit_4.TextScaled = true
+Exit_4.TextSize = 14.000
+Exit_4.TextWrapped = true
+
+UICorner_23.Parent = Exit_4
+
+UICorner_24.Parent = ShortGui2
+
+Unminimized_2.Name = "Unminimized"
+Unminimized_2.Parent = ShortGui2
+Unminimized_2.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Unminimized_2.Position = UDim2.new(0.0260485839, 0, 0.0825030059, 0)
+Unminimized_2.Size = UDim2.new(0, 50, 0, 50)
+Unminimized_2.ZIndex = 999
+Unminimized_2.Font = Enum.Font.PermanentMarker
+Unminimized_2.Text = "+"
+Unminimized_2.TextColor3 = Color3.fromRGB(134, 47, 255)
+Unminimized_2.TextScaled = true
+Unminimized_2.TextSize = 14.000
+Unminimized_2.TextWrapped = true
+
+UICorner_25.Parent = Unminimized_2
+
+-- Scripts:
+
+local function XQRF_fake_script() -- IYFE.LocalScript 
+	local script = Instance.new('LocalScript', IYFE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(XQRF_fake_script)()
+local function NIGJ_fake_script() -- IF.LocalScript 
+	local script = Instance.new('LocalScript', IF)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/Bmq4VhTX'))()
+	end)
+end
+coroutine.wrap(NIGJ_fake_script)()
+local function CTGQVXB_fake_script() -- UNESP.LocalScript 
+	local script = Instance.new('LocalScript', UNESP)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))() end)
+	end)
+end
+coroutine.wrap(CTGQVXB_fake_script)()
+local function JOAIJI_fake_script() -- JB.LocalScript 
+	local script = Instance.new('LocalScript', JB)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
+	end)
+end
+coroutine.wrap(JOAIJI_fake_script)()
+local function XWDJZ_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Main.Visible = false
+	end)
+end
+coroutine.wrap(XWDJZ_fake_script)()
+local function FDKET_fake_script() -- NetL.LocalScript 
+	local script = Instance.new('LocalScript', NetL)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AndrewPoke1232/Scripts-Source/main/Netless.txt?token=GHSAT0AAAAAAB4WWIKKUUNLJT3GXYBGYJG4Y6N5A2A"))()
+	end)
+end
+coroutine.wrap(FDKET_fake_script)()
+local function XQVX_fake_script() -- Minimized.LocalScript 
+	local script = Instance.new('LocalScript', Minimized)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Main.Visible = false
+		script.Parent.Parent.Parent.ShortGui.Visible = true
+	end)
+end
+coroutine.wrap(XQVX_fake_script)()
+local function KMBF_fake_script() -- DH.LocalScript 
+	local script = Instance.new('LocalScript', DH)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+	end)
+end
+coroutine.wrap(KMBF_fake_script)()
+local function GJVQJG_fake_script() -- Main.DragGui 
+	local script = Instance.new('LocalScript', Main)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true); -- drag speed
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(GJVQJG_fake_script)()
+local function JJHCJR_fake_script() -- ESP.LocalScript 
+	local script = Instance.new('LocalScript', ESP)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AndrewPoke1232/Scripts-Source/main/Esp.txt?token=GHSAT0AAAAAAB4WWIKKSPAXVQQDFV63BPX2Y6N5AZQ",true))()
+	end)
+	
+end
+coroutine.wrap(JJHCJR_fake_script)()
+local function OJWH_fake_script() -- SHK.LocalScript 
+	local script = Instance.new('LocalScript', SHK)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/AndrewPoke1232/Scripts-Source/main/Sorky%20Hub.txt?token=GHSAT0AAAAAAB4WWIKLAEBMMQD4ZCXVC7F4Y6N5A3A'),true))()
+	end)
+end
+coroutine.wrap(OJWH_fake_script)()
+local function FJIAFL_fake_script() -- BPB.LocalScript 
+	local script = Instance.new('LocalScript', BPB)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/AndrewPoke1232/Scripts-Source/main/Big%20Paintball.txt?token=GHSAT0AAAAAAB4WWIKK5HR65MAYHWFOS5SCY6N5AZA'),true))()
+	end)
+end
+coroutine.wrap(FJIAFL_fake_script)()
+local function RUJA_fake_script() -- Next_Page.NextPage 
+	local script = Instance.new('LocalScript', Next_Page)
+
+	local player = game.Players.LocalPlayer
+	
+	function click()
+		player.PlayerGui["Andrew Hub X"].Main2.Visible = true
+		player.PlayerGui["Andrew Hub X"].Main.Visible = false
+	
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(RUJA_fake_script)()
+local function OSBQZET_fake_script() -- FLY.LocalScript 
+	local script = Instance.new('LocalScript', FLY)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/fPtT2Q1F", true))()
+	end)
+end
+coroutine.wrap(OSBQZET_fake_script)()
+local function SOBTWE_fake_script() -- Exit_2.LocalScript 
+	local script = Instance.new('LocalScript', Exit_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.ShortGui.Visible = false
+	end)
+end
+coroutine.wrap(SOBTWE_fake_script)()
+local function GHZEY_fake_script() -- Unminimized.LocalScript 
+	local script = Instance.new('LocalScript', Unminimized)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Main.Visible = true
+		script.Parent.Parent.Parent.ShortGui.Visible = false
+	end)
+end
+coroutine.wrap(GHZEY_fake_script)()
+local function EHDICD_fake_script() -- ShortGui.DragGui 
+	local script = Instance.new('LocalScript', ShortGui)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true); -- drag speed
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(EHDICD_fake_script)()
+local function ICCRKNR_fake_script() -- NESP.LocalScript 
+	local script = Instance.new('LocalScript', NESP)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/Mk2j6ezB'))()
+	end)
+end
+coroutine.wrap(ICCRKNR_fake_script)()
+local function GHIOPOE_fake_script() -- Exit_3.LocalScript 
+	local script = Instance.new('LocalScript', Exit_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Main2.Visible = false
+	end)
+end
+coroutine.wrap(GHIOPOE_fake_script)()
+local function CQOBP_fake_script() -- Minimized_2.LocalScript 
+	local script = Instance.new('LocalScript', Minimized_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Main2.Visible = false
+		script.Parent.Parent.Parent.ShortGui2.Visible = true
+	end)
+end
+coroutine.wrap(CQOBP_fake_script)()
+local function QJGN_fake_script() -- Main2.DragGui 
+	local script = Instance.new('LocalScript', Main2)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true); -- drag speed
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(QJGN_fake_script)()
+local function SXNO_fake_script() -- Next_Back_Page.NextPage 
+	local script = Instance.new('LocalScript', Next_Back_Page)
+
+	local player = game.Players.LocalPlayer
+	
+	function click()
+		player.PlayerGui["Andrew Hub X"].Main2.Visible = false
+		player.PlayerGui["Andrew Hub X"].Main.Visible = true
+	
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(SXNO_fake_script)()
+local function AXCD_fake_script() -- Exit_4.LocalScript 
+	local script = Instance.new('LocalScript', Exit_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.ShortGui.Visible = false
+	end)
+end
+coroutine.wrap(AXCD_fake_script)()
+local function KCMIMR_fake_script() -- Unminimized_2.LocalScript 
+	local script = Instance.new('LocalScript', Unminimized_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Main2.Visible = true
+		script.Parent.Parent.Parent.ShortGui2.Visible = false
+	end)
+end
+coroutine.wrap(KCMIMR_fake_script)()
+local function ZGRVLF_fake_script() -- ShortGui2.DragGui 
+	local script = Instance.new('LocalScript', ShortGui2)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true); -- drag speed
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(ZGRVLF_fake_script)()
